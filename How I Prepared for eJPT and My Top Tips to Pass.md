@@ -6,6 +6,7 @@ My name is Md. Rabius Sany. I am a Cybersecurity Enthusiast, a CSE student, and 
 **Series Overview:**
 
 📌 **Part 1:** [Passing eJPT in 13 Hours with a 94% Score!: My Exam Day Experience & Structure](https://github.com/sany4sec/eJPT-by-sany4sec/blob/main/My-Exam-Day-Experience-(Part%201).md)
+
 📌 **Part 2:** How I Prepared for eJPT and My Top Tips to Pass
 
 This is the second part. I hope you will find it useful.
