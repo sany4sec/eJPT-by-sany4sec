@@ -1,14 +1,11 @@
-Here’s the corrected version of your text with improved grammar, punctuation, and clarity:
-
----
-
+## How I Prepared for eJPT and My Top Tips to Pass
 **About Me:**
 
 My name is Md. Rabius Sany. I am a Cybersecurity Enthusiast, a CSE student, and ranked in the Top 2% on TryHackMe. I began my journey into cybersecurity in 2023, and since then, I have been deeply passionate about learning more in this ever-evolving field. Recently, I successfully passed the eJPT certification exam in just 13 hours with a 94% score! This article is part one of my two-part series detailing my experience.
 
 **Series Overview:**
 
-📌 **Part 1:** Passing eJPT in 13 Hours with a 94% Score!: My Exam Day Experience & Structure  
+📌 **Part 1:** [Passing eJPT in 13 Hours with a 94% Score!: My Exam Day Experience & Structure](My-Exam-Day-Experience-(Part 1).md)
 📌 **Part 2:** How I Prepared for eJPT and My Top Tips to Pass
 
 This is the second part. I hope you will find it useful.
@@ -25,16 +22,16 @@ This is the second part. I hope you will find it useful.
 
 ---
 
-# 1. Pre-eJPT Preparation:
+## 1. Pre-eJPT Preparation:
 
 Before you take the eJPT exam or training, you should have a good understanding of computer fundamentals, Linux, and networking. I will provide some resources where you can learn these basics. If you already have knowledge of these topics, you can revise them or skip this section.
 
-- **Linux:** [Linux For Hackers (Free)](link)  
-- **Networking:** [Networking Course (Free)](link)  
+- **Linux:** [Linux For Hackers (Free)](https://youtube.com/playlist?list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&si=8CvMHrlJHggEImj3)  
+- **Networking:** [Networking Course (Free)](https://youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P&si=pqoPNHeCFKizQPgZ)  
 
 ---
 
-# 2. eJPT Exam Preparation:
+## 2. eJPT Exam Preparation:
 
 This is the section we’ve been waiting for.  
 First of all, when you purchase an eJPT voucher, they provide three months of training along with it. The training is sufficient for this certification. However, for proper preparation, I have some advice to follow:
@@ -96,7 +93,7 @@ The eJPT exam covers some basic web attacks. You need to know about:
 
 ---
 
-# 3. Tools You Have to Master:
+## 3. Tools You Have to Master:
 
 In this section, I will list some tools you must master before taking the eJPT exam. If you don’t master these, you will not pass the exam easily.
 
@@ -148,7 +145,7 @@ Here’s the **grammatically corrected version** of your article section. I’ve
 
 ---
 
-# **4. Practice on Some TryHackMe Rooms**  
+## **4. Practice on Some TryHackMe Rooms**  
 After finishing the eJPT course and mastering the essential tools, it’s time to practice some free CTF challenges on TryHackMe before taking the eJPT exam. This will help you develop the mindset needed to find flags or exploit vulnerabilities on your target. If you get stuck on a room, make sure to read the write-ups for that room.  
 
 Here are some free TryHackMe rooms I’ve solved:  
@@ -182,7 +179,7 @@ I believe these rooms will be enough to build your eJPT CTF mindset. Now, let’
 
 ---
 
-# **5. What to Do During the Exam**  
+## **5. What to Do During the Exam**  
 When you start the exam, you’ll need to follow some tips and tricks to complete all the machines. Here’s a guide to help you:  
 
 #### **Step 0: Save All 35 Questions in CherryTree**  
@@ -317,7 +314,7 @@ If you’re stuck:
 
 ---
 
-# **Resources**  
+## **Resources**  
 - [eJPTv2 Notes](https://github.com/neilmadhava/EJPTv2-Notes)  
 - [Linux for Hackers](https://example.com/linux-course)  
 - [Networking Basics](https://example.com/networking-course)  
@@ -331,5 +328,9 @@ By following this guide, you’ll be well-prepared to pass the eJPT exam. Thank 
 
 **MD Rabius Sany**  
 Signing off.  
-
----
+## **🎥 Video & Social Links**
+📽 **Exam Submission Video:** [Watch Here](https://youtube.com/shorts/Oes333UiQKc)  
+🔗 **TryHackMe:** [My Profile](https://tryhackme.com/r/p/sany4sec)  
+🔗 **LinkedIn:** [Connect with Me](https://www.linkedin.com/in/sany4sec/)  
+🔗 **Twitter (X):** [Follow Me](https://x.com/sany4sec)
+🔗 **Website:** [sany4sec](http://sany4sec.super.site)
