@@ -8,3 +8,11 @@ Series Overview:
 #### 📌 Part 2: [How I Prepared for eJPT and My Top Tips to Pass](https://github.com/sany4sec/eJPT-by-sany4sec/blob/main/How%20I%20Prepared%20for%20eJPT%20and%20My%20Top%20Tips%20to%20Pass.md)
 
 Stay tuned for my next article! 🚀
+### MD Rabius Sany
+**eJPT certified | TryHackMe top 2%**
+## **🎥 Video & Social Links**
+📽 **Exam Submission Video:** [Watch Here](https://youtube.com/shorts/Oes333UiQKc)  
+🔗 **TryHackMe:** [My Profile](https://tryhackme.com/r/p/sany4sec)  
+🔗 **LinkedIn:** [Connect with Me](https://www.linkedin.com/in/sany4sec/)  
+🔗 **Twitter (X):** [Follow Me](https://x.com/sany4sec)
+🔗 **Website:** [sany4sec](http://sany4sec.super.site)
