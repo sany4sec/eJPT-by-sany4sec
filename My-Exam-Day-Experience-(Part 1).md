@@ -106,6 +106,6 @@ I was **confused** because I had **no access to Machines 5 & 6**, yet I had **an
 ---
 
 ## **💡 What’s Next?**
-📌 Stay tuned for **Part 2**, where I’ll share **how I prepared for the exam and my top tips for passing the eJPT!** 🚀  
+📌 Stay tuned for **Part 2**, where I’ll share [**how I prepared for the exam and my top tips for passing the eJPT!**](https://github.com/sany4sec/eJPT-by-sany4sec/blob/main/How%20I%20Prepared%20for%20eJPT%20and%20My%20Top%20Tips%20to%20Pass.md) 🚀  
 **Thanks for reading!** 🙌
 
