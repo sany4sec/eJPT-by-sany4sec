@@ -103,37 +103,38 @@ In this section, I will list some tools you must master before taking the eJPT e
 
 2. **Metasploit Framework:**  
    This is the second most useful tool for the eJPT exam. The Penetration Testing Student course covers many Metasploit modules in various phases of the penetration testing cycle. You must master this tool to pass the exam and grow your career in cybersecurity.
-
-3. **Meterpreter and Msfvenom:**  
+3. **Netcat (nc) –**
+    A versatile networking tool used for reading and writing data across network connections. It can be used for **port scanning, banner grabbing, file transfers, reverse shells, and creating backdoors.** Netcat is a must-have tool for penetration testers and system administrators.
+4. **Meterpreter and Msfvenom:**  
    Although Meterpreter and Msfvenom are part of the Metasploit Framework, I want to emphasize their importance. It is crucial to learn and use Meterpreter during the exam. When you get a shell, it will likely be a Meterpreter shell.  
    Msfvenom is used to generate shells that can be used with the Metasploit Framework’s “multi-handler” module.
 
-4. **FTP, SSH, SMBClient, xfreerdp:**  
+5. **FTP, SSH, SMBClient, xfreerdp:**  
    These tools will help you establish sessions or anonymous sessions on specific protocols.  
    - **FTP:** You can create an FTP session anonymously or with credentials to find important files, upload, or download files.  
    - **SSH:** This will help you log in to Windows or Linux machines after finding credentials.  
    - **SMBClient:** This will help you establish a session on SMB ports and enumerate shares, interesting files, and directories, as well as upload and download files.  
    - **xfreerdp:** This will help you establish a remote connection to a Windows machine when RDP is enabled.
 
-5. **Hydra:**  
+6. **Hydra:**  
    Hydra is a useful tool for brute-forcing FTP, SSH, RDP, SMB, and HTTP logins. This tool will be helpful during the exam.
 
-6. **John the Ripper and Hashcat:**  
+7. **John the Ripper and Hashcat:**  
    These tools are used to crack hashes for Linux or Windows machines. You must master one of these tools to pass the exam.
 
-7. **WPScan:**  
+8. **WPScan:**  
    A great tool for when you encounter a WordPress site. You can perform WordPress login brute-forcing, user enumeration, plugin enumeration, and theme enumeration with this tool.
 
-8. **Nikto:**  
+9. **Nikto:**  
    This is another web-related tool. It is a web vulnerability scanner that will find interesting information about the target web server. It is easy to use and powerful.
 
-9. **Dirb, Dirbuster, Gobuster:**  
+10. **Dirb, Dirbuster, Gobuster:**  
    These are directory-busting tools. You must master one of these tools, especially Dirb, to find hidden directories on your target web server. This is common in CTFs and certification exams, where you need to find hidden directories that reveal important information or files.
 
-10. **CrackMapExec and PsExec:**  
+11. **CrackMapExec and PsExec:**  
     These tools help you gain access to systems using SMB credentials. You will likely encounter this scenario during the eJPT exam.
 
-11. **Wordlists:**  
+12. **Wordlists:**  
     There are four important wordlists that are sufficient for the eJPT exam:  
     1. Usernames: `/usr/share/metasploit-framework/data/wordlists/unix_users.txt`  
     2. Passwords: `/usr/share/metasploit-framework/data/wordlists/unix_passwords.txt`  
