@@ -6,6 +6,10 @@ Series Overview:
 
 #### 📌 Part 1: [Passing eJPT in 13 Hours with 94% Score!: My Exam Day Experience & Structure](https://github.com/sany4sec/eJPT-by-sany4sec/blob/main/My-Exam-Day-Experience-(Part%201).md)
 #### 📌 Part 2: [How I Prepared for eJPT and My Top Tips to Pass](https://github.com/sany4sec/eJPT-by-sany4sec/blob/main/How%20I%20Prepared%20for%20eJPT%20and%20My%20Top%20Tips%20to%20Pass.md)
+![eJPT cert by Rabius Sany (sany4sec)](https://github.com/user-attachments/assets/3633fcca-4f54-4875-b45a-4b5f9f5de493)
+![ejpt result of Rabius Sany (sany4sec)](https://github.com/user-attachments/assets/2cbd14dd-c812-4461-83b6-5ff9edd14034)
+
+
 
 Stay tuned for my next article! 🚀
 ### MD Rabius Sany
