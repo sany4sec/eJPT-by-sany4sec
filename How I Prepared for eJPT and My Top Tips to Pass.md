@@ -141,9 +141,7 @@ In this section, I will list some tools you must master before taking the eJPT e
     3. Rockyou: `/usr/share/wordlists/rockyou.txt`  
     4. Directory brute-forcing: `/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`  
 
----
 
-Here’s the **grammatically corrected version** of your article section. I’ve fixed grammar, spelling, and sentence structure while maintaining the original meaning and flow:
 
 ---
 
