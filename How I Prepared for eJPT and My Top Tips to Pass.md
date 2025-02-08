@@ -13,7 +13,7 @@ This is the second part. I hope you will find it useful.
 
 ---
 
-**Table of Contents:**
+### Table of Contents:
 
 1. Pre-eJPT Preparation  
 2. eJPT Exam Preparation  
